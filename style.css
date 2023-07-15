@@ -1,0 +1,44 @@
+
+
+h1{
+    background-color: palevioletred;
+    width: 100%;
+    
+    padding: 10px;
+    text-align: center;
+}
+h2{
+   
+}
+
+.main{
+    display: flex;
+   
+    justify-content: space-around;
+    flex-wrap: wrap;
+ }
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    align-items: center;  
+    background-color: black;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    
+    
+    
+
+    
+    
+}
+.box1{
+    flex-direction: row;
+    border-radius: 20px;
+    border:  2px solid white;
+    padding: 25px;
+    width: 300px;
+}
